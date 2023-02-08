@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top_side {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid;
+  padding: 20px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  z-index: 20;
+}
+
+.manu_logo {
+  display: flex;
+  gap: 10px;
+  letter-spacing: 1px;
+}
+
+.icon {
+  color: #5c68af;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.logo {
+  color: #0c3c51;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #565656;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+}
+
+.aside_text {
+  /* background-color: #4B4293; */
+}
+
+.main_text {
+  font-size: 30px;
+}
+
+.image {
+  width: 728px;
+  height: 629px;
+}
+
+img {
+  max-width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.main_wall {
+  height: 100vh;
+  background-color: #4b4293;
+  /* z-index: 1; */
+}
+
+.columns {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.column_item {
+  width: 400px;
+  height: 280px;
+  border: 1px solid none;
+  padding: 30px;
+  font-size: 20px;
+  color: #332577;
+  background-color: white;
+}
+
+.column_title {
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.column_text {
+  color: #8f8ca3;
+}
